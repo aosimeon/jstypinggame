@@ -1,0 +1,102 @@
+body {
+    font-family: 'Arvo', serif;
+    background-color: #031634;
+    color: #eee;
+    font-size: 16px;
+}
+
+header#main-header {
+    background-color: #036564;
+    border-bottom: 3px solid #F23814;
+    width: 100%;
+    min-height: 10vh;
+}
+
+#main-header h1 {
+    margin: 0;
+    padding: 10px 0;
+}
+
+#main-header h4 {
+    margin: 0;
+    padding: 25px 0;
+    font-size: 1.3em;
+}
+
+#main-content {
+    min-height: 80vh;
+    padding-top: 7vh;
+
+}
+
+#main-content .word-input {
+    align-content: center;
+}
+
+.input-title {
+    font-size: 28px;
+}
+
+.type-in {
+    justify-content: center;
+}
+.type-in input {
+    width: 30vw ;
+    margin-bottom: 20px;
+    background-color: #020f24;
+    outline: none;
+    border: 2px solid #073174;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.type-in input:focus {
+    background-color: #020f24;
+    outline: none;
+    color: #627577;
+}
+#words {
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #F23814;
+    border-radius: 50%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 5px;
+    margin-bottom: 20px;
+    width: 250px;
+    font-size: 2em;
+}
+
+#time {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#message {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.5rem;
+    color: #DC3545;
+}
+
+#level select {
+    background-color: #D3D8EA;
+}
+
+#level select option {
+    box-sizing: content-box;
+    background-color: #D3D8EA;
+    margin-bottom: 10px;
+}
+
+#main-footer {
+    background-color: #F23814;
+    color: #010814;
+    min-height: 10vh;
+}
+
+#main-footer p {
+    padding-top: 18px;
+    text-shadow: 1px 1px 1px #010814;
+}
